@@ -1,9 +1,9 @@
 ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES
-FRAMEWORK_SEARCH_PATHS = $(inherited) "$PODS_CONFIGURATION_BUILD_DIR/Bolts" "$PODS_CONFIGURATION_BUILD_DIR/JSSAlertView" "$PODS_CONFIGURATION_BUILD_DIR/MBProgressHUD" "$PODS_CONFIGURATION_BUILD_DIR/Parse" "$PODS_CONFIGURATION_BUILD_DIR/ParseUI" "$PODS_CONFIGURATION_BUILD_DIR/RKDropdownAlert"
+FRAMEWORK_SEARCH_PATHS = $(inherited) "$PODS_CONFIGURATION_BUILD_DIR/Bolts" "$PODS_CONFIGURATION_BUILD_DIR/JSSAlertView" "$PODS_CONFIGURATION_BUILD_DIR/MBProgressHUD" "$PODS_CONFIGURATION_BUILD_DIR/Parse" "$PODS_CONFIGURATION_BUILD_DIR/ParseUI" "$PODS_CONFIGURATION_BUILD_DIR/RKDropdownAlert" "$PODS_CONFIGURATION_BUILD_DIR/Sharaku"
 GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
 LD_RUNPATH_SEARCH_PATHS = $(inherited) '@executable_path/Frameworks' '@loader_path/Frameworks'
-OTHER_CFLAGS = $(inherited) -iquote "$PODS_CONFIGURATION_BUILD_DIR/Bolts/Bolts.framework/Headers" -iquote "$PODS_CONFIGURATION_BUILD_DIR/JSSAlertView/JSSAlertView.framework/Headers" -iquote "$PODS_CONFIGURATION_BUILD_DIR/MBProgressHUD/MBProgressHUD.framework/Headers" -iquote "$PODS_CONFIGURATION_BUILD_DIR/Parse/Parse.framework/Headers" -iquote "$PODS_CONFIGURATION_BUILD_DIR/ParseUI/ParseUI.framework/Headers" -iquote "$PODS_CONFIGURATION_BUILD_DIR/RKDropdownAlert/RKDropdownAlert.framework/Headers"
-OTHER_LDFLAGS = $(inherited) -framework "Bolts" -framework "JSSAlertView" -framework "MBProgressHUD" -framework "Parse" -framework "ParseUI" -framework "RKDropdownAlert"
+OTHER_CFLAGS = $(inherited) -iquote "$PODS_CONFIGURATION_BUILD_DIR/Bolts/Bolts.framework/Headers" -iquote "$PODS_CONFIGURATION_BUILD_DIR/JSSAlertView/JSSAlertView.framework/Headers" -iquote "$PODS_CONFIGURATION_BUILD_DIR/MBProgressHUD/MBProgressHUD.framework/Headers" -iquote "$PODS_CONFIGURATION_BUILD_DIR/Parse/Parse.framework/Headers" -iquote "$PODS_CONFIGURATION_BUILD_DIR/ParseUI/ParseUI.framework/Headers" -iquote "$PODS_CONFIGURATION_BUILD_DIR/RKDropdownAlert/RKDropdownAlert.framework/Headers" -iquote "$PODS_CONFIGURATION_BUILD_DIR/Sharaku/Sharaku.framework/Headers"
+OTHER_LDFLAGS = $(inherited) -framework "Bolts" -framework "JSSAlertView" -framework "MBProgressHUD" -framework "Parse" -framework "ParseUI" -framework "RKDropdownAlert" -framework "Sharaku"
 OTHER_SWIFT_FLAGS = $(inherited) "-D" "COCOAPODS"
 PODS_BUILD_DIR = $BUILD_DIR
 PODS_CONFIGURATION_BUILD_DIR = $PODS_BUILD_DIR/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)

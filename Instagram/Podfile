@@ -12,5 +12,6 @@ target ‘Instagram’ do
     pod 'MBProgressHUD'
     pod 'JSSAlertView'
     pod 'RKDropdownAlert'
+    pod 'Sharaku'
 
 end

@@ -9,8 +9,9 @@
 import UIKit
 import Parse
 import MBProgressHUD
+import Sharaku
 
-class ShareViewController: UIViewController, UIImagePickerControllerDelegate, UINavigationControllerDelegate {
+class ShareViewController: UIViewController, UIImagePickerControllerDelegate, UINavigationControllerDelegate, SHViewControllerDelegate{
     
     
     @IBOutlet weak var postPhotoLabel: UIImageView!
@@ -62,10 +63,18 @@ class ShareViewController: UIViewController, UIImagePickerControllerDelegate, UI
         let editedImage = info[UIImagePickerControllerEditedImage] as! UIImage
         postPhotoLabel.image = editedImage
         // Do something with the images (based on your use case)
-        
         // Dismiss UIImagePickerController to go back to your original view controller
         dismiss(animated: true, completion: nil)
     }
+    
+    @IBAction func filterButtonClicked(_ sender: Any) {
+        let imageToBeFiltered = postPhotoLabel.image
+        let vc = SHViewController(image: imageToBeFiltered!)
+        vc.delegate = self
+        self.present(vc, animated:true, completion: nil)
+
+    }
+    
     
     @IBAction func uploadButtonClicked(_ sender: Any) {
          MBProgressHUD.showAdded(to: self.view, animated: true)
@@ -84,6 +93,15 @@ class ShareViewController: UIViewController, UIImagePickerControllerDelegate, UI
        
         //Post.postUserImage(image: postPhotoLabel.image, withCaption: captionTextFiled.text, withCompletion: PFBooleanResultBlock?)
     }
+    
+
+        func shViewControllerImageDidFilter(image: UIImage) {
+            postPhotoLabel.image = image
+                    }
+        
+        func shViewControllerDidCancel() {
+            // This will be called when you cancel filtering the image.
+        }
 
        
     /*

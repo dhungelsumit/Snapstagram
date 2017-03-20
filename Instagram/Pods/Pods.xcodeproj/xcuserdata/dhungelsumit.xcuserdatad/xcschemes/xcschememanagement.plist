@@ -39,14 +39,14 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>Sharaku.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>071F5E4713804F204EFD4BEB0AE503DE</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
 		<key>41FA54D12162DAD51D02FC58A2CD5034</key>
 		<dict>
 			<key>primary</key>
@@ -57,12 +57,22 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>7B84D1E41FDEAA49C3A86D4D421E0822</key>
+		<key>82F4DDD57D9EFD5538EA1789FA0916BD</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
 		<key>A760316124FD796EF09C09479E9F0021</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>AE8D975193484E579B7837BB4352EEB8</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>B12368BA0ABB23F6E18F620EF0855FC5</key>
 		<dict>
 			<key>primary</key>
 			<true/>
