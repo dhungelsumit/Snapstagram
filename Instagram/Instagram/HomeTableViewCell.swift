@@ -14,6 +14,7 @@ import ParseUI
 class HomeTableViewCell: UITableViewCell {
 
     
+    @IBOutlet weak var timeLabel: UILabel!
     @IBOutlet weak var workingImageView: PFImageView!
     
     @IBOutlet weak var captionLabel: UILabel!

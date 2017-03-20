@@ -80,7 +80,15 @@ class HomeViewController: UIViewController, UITableViewDelegate, UITableViewData
         
         cell.captionLabel.text = caption
         cell.userLabel.text = user
-        return cell
+        if let creationTime = post["creationTime"] {
+            let postDateFormatter: DateFormatter = {
+                let f = DateFormatter()
+                f.dateFormat = "MM/dd/yyyy @ hh:mm:ss"
+                return f
+            }()
+            cell.timeLabel.text = postDateFormatter.string(from: Date(timeIntervalSinceReferenceDate: creationTime as! TimeInterval))
+        }
+             return cell
 
         
     }

@@ -41,7 +41,7 @@ class LoginViewController: UIViewController {
                 
                 
                 
-                let alertController = UIAlertController(title: "ERROR", message: "INVALID VALUES", preferredStyle: .alert)
+                let alertController = UIAlertController(title: "ERROR", message: "Invalid Values!", preferredStyle: .alert)
                 
                 
                 let cancelAction = UIAlertAction(title: "OK", style: .cancel) { (action) in
