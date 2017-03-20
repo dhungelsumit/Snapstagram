@@ -8,6 +8,7 @@
 
 import UIKit
 import Parse
+import RevealingSplashView
 
 class LoginViewController: UIViewController {
 
@@ -16,6 +17,17 @@ class LoginViewController: UIViewController {
     
     @IBOutlet weak var passwordField: UITextField!
     override func viewDidLoad() {
+        let revealingSplashView = RevealingSplashView(iconImage: UIImage(named:"instagramlogo" )!,iconInitialSize: CGSize(width: 70, height: 70), backgroundColor: UIColor(red:210/255, green:74/255, blue:97/255, alpha:1.0))
+        
+        //Adds the revealing splash view as a sub view
+        self.view.addSubview(revealingSplashView)
+        revealingSplashView.duration = 0.8
+        
+     //   revealingSplashView.iconColor = UIColor.white
+        revealingSplashView.useCustomIconColor = false
+        //Starts animation
+        revealingSplashView.startAnimation(){
+        }
         let backgroundImage = UIImageView(frame: UIScreen.main.bounds)
         backgroundImage.image = UIImage(named: "Instagram-Login")
         self.view.insertSubview(backgroundImage, at: 0)

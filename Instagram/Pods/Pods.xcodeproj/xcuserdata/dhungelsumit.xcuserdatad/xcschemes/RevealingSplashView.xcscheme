@@ -14,10 +14,10 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = '6B236202F925BA3BA808334B21DA015A'
-               BlueprintName = 'RKDropdownAlert'
+               BlueprintIdentifier = 'E55B799469D8E9211BF10359CA26245E'
+               BlueprintName = 'RevealingSplashView'
                ReferencedContainer = 'container:Pods.xcodeproj'
-               BuildableName = 'RKDropdownAlert.framework'>
+               BuildableName = 'RevealingSplashView.framework'>
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>

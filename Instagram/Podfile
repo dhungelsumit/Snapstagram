@@ -13,5 +13,6 @@ target ‘Instagram’ do
     pod 'JSSAlertView'
     pod 'RKDropdownAlert'
     pod 'Sharaku'
+    pod 'RevealingSplashView'
 
 end

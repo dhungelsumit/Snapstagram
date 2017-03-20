@@ -39,6 +39,11 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>RevealingSplashView.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>Sharaku.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -57,7 +62,7 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>82F4DDD57D9EFD5538EA1789FA0916BD</key>
+		<key>6B236202F925BA3BA808334B21DA015A</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -67,17 +72,22 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>AE8D975193484E579B7837BB4352EEB8</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>B12368BA0ABB23F6E18F620EF0855FC5</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
 		<key>D368184BEED712B6A15E4767FE420BE5</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>E427DFD7A0C00364B38416279C1F23A1</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>E55B799469D8E9211BF10359CA26245E</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>F7270423EAA46562455353825D7FA081</key>
 		<dict>
 			<key>primary</key>
 			<true/>
